@@ -382,7 +382,7 @@ section {
    Screenshots Section
    =========================== */
 .screenshots {
-  background-color: var(--color-background-alt);
+  background-color: transparent;
   text-align: center;
 }
 
