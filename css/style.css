@@ -494,14 +494,17 @@ section {
   height: 2rem;
   flex-shrink: 0;
   display: block;
+  align-self: center;
 }
 
 .app-store-button .button-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   text-align: left;
   line-height: 1.2;
+  flex: 1;
 }
 
 .app-store-button .button-text small {
@@ -777,6 +780,7 @@ section {
   .app-store-button .button-icon {
     width: 2.5rem;
     height: 2.5rem;
+    align-self: center;
   }
   
   .app-store-button .button-text strong {
@@ -920,6 +924,7 @@ section {
   .app-store-button .button-icon {
     width: 1.5rem;
     height: 1.5rem;
+    align-self: center;
   }
   
   .app-store-button .button-text small {
