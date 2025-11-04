@@ -417,12 +417,12 @@ section {
   max-width: 300px;
   height: auto;
   border-radius: 20px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.15));
   transition: all var(--transition-base);
 }
 
 .screenshot-item:hover img {
-  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  filter: drop-shadow(0 15px 40px rgba(0, 0, 0, 0.2));
   transform: scale(1.02);
 }
 
