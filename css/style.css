@@ -489,8 +489,9 @@ section {
 }
 
 .app-store-button .button-icon {
-  font-size: 2rem;
-  line-height: 1;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
 }
 
 .app-store-button .button-text {
@@ -771,7 +772,8 @@ section {
   }
   
   .app-store-button .button-icon {
-    font-size: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
   
   .app-store-button .button-text strong {
@@ -912,7 +914,8 @@ section {
   }
   
   .app-store-button .button-icon {
-    font-size: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   
   .app-store-button .button-text small {
