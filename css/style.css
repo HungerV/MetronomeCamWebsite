@@ -461,7 +461,7 @@ section {
   gap: var(--spacing-sm);
   background-color: var(--color-secondary);
   color: var(--color-white);
-  padding: var(--spacing-sm) var(--spacing-xl);
+  padding: var(--spacing-md) var(--spacing-xl);
   border: none;
   border-radius: 12px;
   font-family: var(--font-primary);
@@ -469,6 +469,7 @@ section {
   transition: all var(--transition-base);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   margin-bottom: var(--spacing-md);
+  min-height: 60px;
 }
 
 .app-store-button:hover:not(:disabled) {
@@ -492,6 +493,7 @@ section {
   width: 2rem;
   height: 2rem;
   flex-shrink: 0;
+  display: block;
 }
 
 .app-store-button .button-text {
@@ -769,6 +771,7 @@ section {
   
   .app-store-button {
     padding: var(--spacing-md) var(--spacing-2xl);
+    min-height: 70px;
   }
   
   .app-store-button .button-icon {
@@ -911,6 +914,7 @@ section {
   .app-store-button {
     padding: var(--spacing-sm) var(--spacing-md);
     gap: var(--spacing-xs);
+    min-height: 50px;
   }
   
   .app-store-button .button-icon {
