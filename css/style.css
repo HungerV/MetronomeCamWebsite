@@ -419,7 +419,6 @@ section {
   border-radius: 20px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   transition: all var(--transition-base);
-  background-color: var(--color-white);
 }
 
 .screenshot-item:hover img {
@@ -821,7 +820,9 @@ section {
   
   /* Screenshots Section Desktop */
   .screenshot-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    margin: 0 auto;
   }
   
   /* Download Section Desktop */
