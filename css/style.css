@@ -585,6 +585,21 @@ section {
   font-size: var(--font-size-sm);
   color: var(--color-gray-light);
   margin: 0;
+  margin-bottom: var(--spacing-xs);
+}
+
+.footer-bottom p:last-child {
+  margin-bottom: 0;
+}
+
+.footer-bottom a {
+  color: var(--color-gray-light);
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
 }
 
 /* ===========================
@@ -1050,6 +1065,21 @@ section {
 .privacy-footer .copyright {
   font-size: var(--font-size-sm);
   color: var(--color-text-light);
+  margin-bottom: var(--spacing-xs);
+}
+
+.privacy-footer .copyright:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-footer .copyright a {
+  color: var(--color-text-light);
+  text-decoration: none;
+}
+
+.privacy-footer .copyright a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
 }
 
 /* Privacy Page Responsive Design */

@@ -13,7 +13,11 @@ const siteConfig = {
     appStoreUrl: '', // App Store 链接（上架后填写）
   },
   contact: {
-    email: 'contact@example.com',
+    email: 'support@sweetang.site',
+  },
+  company: {
+    name: '上海随糖衍易网络科技有限公司',
+    icp: '沪ICP备2025115361号',
   },
   colors: {
     primary: '#FFCD00',
@@ -195,4 +199,5 @@ function updateAppStoreButton() {
  */
 console.log('%c MetronomeCam 节拍拍 ', 'background: #FFCD00; color: #000000; font-size: 20px; font-weight: bold; padding: 10px;');
 console.log('%c 边练琴，边录像，节奏更精准 ', 'color: #666; font-size: 14px;');
+console.log('%c ' + siteConfig.company.name, 'color: #999; font-size: 12px;');
 console.log('%c 联系我们: ' + siteConfig.contact.email, 'color: #999; font-size: 12px;');
