@@ -1,0 +1,14 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#FFCD00"/>
+  
+  <!-- Metronome Icon -->
+  <path d="M16 6 L20 24 L12 24 Z" fill="#000000"/>
+  
+  <!-- Metronome Base -->
+  <rect x="10" y="24" width="12" height="2" rx="1" fill="#000000"/>
+  
+  <!-- Camera Lens -->
+  <circle cx="22" cy="10" r="4" fill="#000000" opacity="0.8"/>
+  <circle cx="22" cy="10" r="2" fill="#FFCD00"/>
+</svg>
