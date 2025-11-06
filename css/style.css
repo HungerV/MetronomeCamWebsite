@@ -290,6 +290,7 @@ section {
 }
 
 .hero .cta-button {
+  display: inline-block;
   background-color: var(--color-primary);
   color: var(--color-secondary);
   font-size: var(--font-size-lg);
@@ -301,20 +302,16 @@ section {
   box-shadow: 0 4px 15px rgba(255, 205, 0, 0.3);
   transition: all var(--transition-base);
   animation: slideUp 0.6s ease-out 0.4s backwards;
+  text-decoration: none;
 }
 
-.hero .cta-button:hover:not(:disabled) {
+.hero .cta-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255, 205, 0, 0.4);
 }
 
-.hero .cta-button:active:not(:disabled) {
+.hero .cta-button:active {
   transform: translateY(0);
-}
-
-.hero .cta-button:disabled {
-  opacity: 0.7;
-  cursor: not-allowed;
 }
 
 /* ===========================
@@ -470,23 +467,18 @@ section {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   margin-bottom: var(--spacing-md);
   min-height: 60px;
+  text-decoration: none;
 }
 
-.app-store-button:hover:not(:disabled) {
+.app-store-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
   background-color: #1a1a1a;
 }
 
-.app-store-button:active:not(:disabled) {
+.app-store-button:active {
   transform: translateY(0);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
-
-.app-store-button:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-  background-color: var(--color-gray-dark);
 }
 
 .app-store-button .button-icon {

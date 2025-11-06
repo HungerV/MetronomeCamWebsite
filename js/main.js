@@ -9,8 +9,8 @@ const siteConfig = {
     nameCN: '节拍拍',
     tagline: '边练琴，边录像，节奏更精准',
     description: '专为音乐学习者设计的节拍器录像应用',
-    isLaunched: false, // 是否已上架
-    appStoreUrl: '', // App Store 链接（上架后填写）
+    isLaunched: true, // 是否已上架
+    appStoreUrl: 'https://apps.apple.com/app/id6751026628', // App Store 链接
   },
   contact: {
     email: 'support@sweetang.site',
